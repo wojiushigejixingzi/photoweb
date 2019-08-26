@@ -1,0 +1,108 @@
+a {
+    color:#fff;
+    text-decoration: none;
+    border:none;
+}
+#main{
+    background-color:#000000;
+    margin: 2% 4%;
+    text-align: center;
+    border:none;
+}
+header{
+    border:none;
+}
+.title{
+    padding: 40px 10%;
+    text-align: left;
+    background: #000000;
+    font-size: 13px;
+    font-weight:lighter;
+    color: #a1a1a1;
+    border:none;
+}
+.big{ font-size: 30px; font-weight:bold;}
+/* 鼠标移动到链接的颜色 */
+.title a:hover {
+    color: #8080ff;
+}
+/* 导航 */
+#navbar {
+    overflow: hidden;
+    background: #333;
+    padding:0px 70px;
+    border:none;
+}
+/* 导航栏样式 */
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 11px 20px;
+    text-decoration: none;
+}
+#navbar a.right {
+    float: right;
+}
+/* 鼠标移动到链接的颜色 */
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#info{
+    background:#000000;
+    border:none;
+}
+#aside {
+	float:left;
+	width:200px;
+}
+#aside dl dt {
+	color: #666666;
+	font-size: 30px;
+	font-weight:bold;
+	padding-left:20px;
+	line-height: 43px;
+    text-align: center;
+}
+#aside dl dd{
+    margin-top:25px;
+    font-size: 15px;
+    line-height: 43px;
+    text-align: center;
+}
+#aside dl dd a:hover{
+    color:#8080ff;
+}
+#content {
+	margin:10px 10px 10px 240px;
+	padding:0px 0px 10px 10px;
+	border:1px solid #000000;
+	min-height: 400px;
+	background: #000000;
+}
+#content table {border:2px solid #ffffff;}
+#content table td {border:1px solid #cfcfcf;}
+#content table tr.bg td {background-color:#ffffff;}
+#content .nocontent {
+	background: #2e2f30;
+}
+#content .nocontent p{
+    font-size: 14px;
+    color: #FF0000;
+    float: left;
+    height: 43px;
+    width: 330px;
+    margin: 140px 200px;
+    line-height: 43px;
+    text-align: center;
+}
+.footer {
+    background: #000000;
+    color: #666;
+    font-size: 13px;
+    padding: 1.5em 0.5em;
+    text-align: center;
+    border:none;
+}

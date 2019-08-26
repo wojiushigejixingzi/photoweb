@@ -1,0 +1,51 @@
+.con4 {
+    padding: 30px;
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+    margin: 20px auto;
+    color: #FFFFFF;
+    float: left;
+}
+.con4 .btn {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #d8b49c;
+    display: block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.photos{
+    float: left;
+}
+.userinfo{
+    color: #ffffff;
+    float: right;
+    padding: 100px;
+}
+.hhh{
+    font-size: 18px;
+    line-height: 25px;
+    padding: 5px 10px;
+
+}
+.upload {
+    float: left;
+    position: relative;
+}
+.upload_pic {
+    display: block;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    border-radius: 5px;
+}
+#cvs {
+    border: 1px solid #000;
+    margin: 20px 0 20px 50px;
+}
